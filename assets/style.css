@@ -5,9 +5,10 @@
     margin: 0;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     background-image: linear-gradient(#cc2b5e, #753a88);
 }
 
@@ -33,7 +34,7 @@ body{
     border: 5px dotted maroon;
 }
 
-.contact-me {
+.contact-me a {
     border: 5px dotted limegreen;
 }
 
@@ -72,3 +73,15 @@ h2 {
     background-color: grey;
     color: black;
   }
+.my-work {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+.div h2 {
+
+}
