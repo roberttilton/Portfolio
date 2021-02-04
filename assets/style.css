@@ -60,7 +60,7 @@ h2 {
    text-align: center;
 }
 
-.contact-me a {
+#contact-me a {
     float: left;
     display: block;
     color: blue;
@@ -69,11 +69,11 @@ h2 {
     text-decoration: none;
   }
 
-.contact-me a:hover {
+#contact-me a:hover {
     background-color: grey;
     color: black;
   }
-.my-work {
+#my-work {
     display: flex;
     justify-content: space-between;
 }
