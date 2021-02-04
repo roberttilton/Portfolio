@@ -5,13 +5,19 @@
     margin: 0;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(#cc2b5e, #753a88);
+}
+
 .banner {
     height: 100px;
 }
 
 .navbar {
     overflow: hidden;
-    background-color: goldenrod;
+    background-image: linear-gradient(#ffafbd, #ffc3a0);
   }
 
 .navbar a {
@@ -24,11 +30,11 @@
 }
 
 .describe {
-    border: 5px dotted red;
+    border: 5px dotted maroon;
 }
 
-.my-work {
-
+.contact-me {
+    border: 5px dotted limegreen;
 }
 
 .navbar a:hover {
@@ -52,3 +58,17 @@ h1 {
 h2 {
    text-align: center;
 }
+
+.contact-me a {
+    float: left;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.contact-me a:hover {
+    background-color: grey;
+    color: black;
+  }
