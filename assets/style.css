@@ -31,7 +31,7 @@ body {
 }
 
 .describe {
-    border: 5px dotted maroon;
+    border: 5px solid maroon;
 }
 
 .contact-me a {
@@ -73,6 +73,7 @@ h2 {
     background-color: grey;
     color: black;
   }
+  
 #my-work {
     display: flex;
     justify-content: space-between;
@@ -80,8 +81,4 @@ h2 {
 
 footer {
     flex-shrink: 0;
-}
-
-.div h2 {
-
 }
