@@ -13,6 +13,10 @@ body {
     height: 100px;
 }
 
+#about-me {
+    padding-top: 50px;
+}
+
 .navbar {
     overflow: hidden;
     background-image: linear-gradient(#ffafbd, #ffc3a0);
@@ -103,9 +107,12 @@ footer {
 }
 
 #email-hover {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    float: initial;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* If you want dots under the hoverable text */
   }
   
   /* Tooltip text */
