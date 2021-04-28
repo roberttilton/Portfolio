@@ -39,9 +39,6 @@ body {
     border: 5px solid maroon;
 }
 
-.contact-me a {
-    border: 5px dotted limegreen;
-}
 
 .navbar a:hover {
     background-color: #ddd;
@@ -90,6 +87,11 @@ h2 {
 #my-work {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#work-title {
+    padding-top: 50px;
 }
 
 footer {
