@@ -7,6 +7,7 @@
 
 body {
     justify-content: space-around;
+    background-color: #bf3636;
 }
 
 .banner {
@@ -25,6 +26,14 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.name {
+  float: left;
+  display: block;
+  color: brown;
+  text-align: center;
+  padding: 14px 16px;
 }
 
 .describe {
@@ -63,7 +72,7 @@ h2 {
   }
 
 #contact-me a {
-  float: left;
+  float: initial;
   display: block;
   color: #f2f2f2;
   text-align: center;
