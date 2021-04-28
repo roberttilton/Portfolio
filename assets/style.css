@@ -6,10 +6,7 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     justify-content: space-around;
-    background-image: linear-gradient(#cc2b5e, #753a88);
 }
 
 .banner {
@@ -62,7 +59,7 @@ h2 {
 
 #contact-me {
     overflow: hidden;
-    background-image: linear-gradient(#ffafbd, #ffc3a0);
+    background-color: linear-gradient(#ffafbd, #ffc3a0);
   }
 
 #contact-me a {
@@ -86,4 +83,8 @@ h2 {
 
 footer {
     flex-shrink: 0;
+}
+
+#title {
+    color: black;
 }
